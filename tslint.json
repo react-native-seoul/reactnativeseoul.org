@@ -1,0 +1,13 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended",
+        "tslint-react"
+    ],
+    "rules": {
+        "indent": [true, "spaces", 4],
+        "quotemark": [true, "single", "jsx-single"],
+        "semicolon": [true, "never"],
+        "ordered-imports": false
+    }
+}

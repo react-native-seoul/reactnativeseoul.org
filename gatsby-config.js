@@ -2,5 +2,8 @@ module.exports = {
   siteMetadata: {
     title: 'React Native Seoul Community',
   },
-  plugins: ['gatsby-plugin-react-helmet'],
+  plugins: [
+    'gatsby-plugin-typescript',
+    'gatsby-plugin-react-helmet',
+  ],
 };
