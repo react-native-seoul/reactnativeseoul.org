@@ -1,18 +1,14 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "reactnativeseoul.org",
+  "description": "React Native Seoul Community",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "private": true,
   "dependencies": {
     "gatsby": "^1.9.204",
     "gatsby-link": "^1.6.37",
     "gatsby-plugin-react-helmet": "^2.0.5",
     "react-helmet": "^5.2.0"
   },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "MIT",
   "main": "n/a",
   "scripts": {
     "build": "gatsby build",
