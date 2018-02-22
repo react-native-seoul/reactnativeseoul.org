@@ -8,6 +8,8 @@
         "indent": [true, "spaces", 4],
         "quotemark": [true, "single", "jsx-single"],
         "semicolon": [true, "never"],
-        "ordered-imports": false
+        "ordered-imports": false,
+        "jsx-no-multiline-js": false,
+        "jsx-boolean-value": false
     }
 }

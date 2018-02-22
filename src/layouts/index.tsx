@@ -1,30 +1,20 @@
 import * as React from 'react'
 import Helmet from 'react-helmet'
 
-import Header from '../components/Header'
-import './index.css'
+import 'semantic-ui-css/semantic.min.css'
+import './index.scss'
 
-const TemplateWrapper = ({ children }) => (
-  <div>
-    <Helmet
-      title="Gatsby Default Starter"
-      meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
-      ]}
-    />
-    <Header />
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0,
-      }}
-    >
-      {children()}
-    </div>
-  </div>
+const TemplateWrapper = ({ children }: any) => (
+    <>
+        <Helmet
+            title='React Native Seoul Community'
+            meta={[
+                { name: 'description', content: 'Homepage of the React Native Seoul Community' },
+                { name: 'keywords', content: 'React Native, Seoul' },
+            ]}
+        />
+        {children()}
+    </>
 )
 
 export default TemplateWrapper

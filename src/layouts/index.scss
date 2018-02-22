@@ -1,0 +1,80 @@
+.masthead {
+    &.segment {
+        min-height: 600px;
+        padding: 1em 0;
+    }
+
+    .logo.item img {
+        margin-right: 1em;
+    }
+
+    .ui.menu .ui.button {
+        margin-left: 0.5em;
+    }
+
+    h1.ui.header {
+        margin-top: 3em;
+        margin-bottom: 0;
+        font-size: 4em;
+        font-weight: normal;
+    }
+
+    h2 {
+        font-size: 1.7em;
+        font-weight: normal;
+    }
+
+    @media only screen and (max-width: 700px) {
+        &.segment {
+            min-height: 300px;
+        }
+
+        h1.ui.header {
+            font-size: 2em;
+            margin-top: 1.5em;
+        }
+
+        h2 {
+            margin-top: 0.5em;
+            font-size: 1.5em;
+        }
+    }
+}
+
+.ui.vertical.stripe {
+    padding: 8em 0;
+
+    h3 {
+        font-size: 2em;
+    }
+
+    .button + h3, 
+    p + h3 {
+        margin-top: 3em;
+    }
+
+    .floated.image {
+        clear: both;
+    }
+
+    p {
+        font-size: 1.33em;
+    }
+
+    .horizontal.divider {
+        margin: 3em 0;
+    }
+}
+
+.ui.stripe.alternate {
+    background-color: #f2f3f5;
+}
+
+.quote.stripe.segment {
+    padding: 0;
+
+    .grid .column {
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+}
