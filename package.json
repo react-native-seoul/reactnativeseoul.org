@@ -15,7 +15,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --trailing-comma es5 --no-semi --single-quote --write \"src/**/*.js\"",
+    "check-style": "tslint --project tsconfig.json --config tslint.json \"src/**/*.tsx?\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
@@ -23,7 +23,6 @@
     "@types/react": "^16.0.38",
     "@types/react-dom": "^16.0.4",
     "@types/react-helmet": "^5.0.4",
-    "prettier": "^1.10.2",
     "tslint": "^5.9.1",
     "tslint-react": "^3.5.1"
   }
