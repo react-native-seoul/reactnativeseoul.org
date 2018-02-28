@@ -6,6 +6,6 @@ const SLACK_INVITE_LINK = 'https://join.slack.com/t/reactnativeseoul/shared_invi
 
 export default () => (
     <Helmet>
-        <script>{window.location.href = SLACK_INVITE_LINK}</script>
+        <script>{`window.location = '${SLACK_INVITE_LINK}'`}</script>
     </Helmet>
 )
